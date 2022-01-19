@@ -24,6 +24,12 @@ Sometimes you may find you need to remove the containers as you want to rebuild,
 docker container rm db (removes the db container)
 docker container rm site (removes the site container)
 
+## to tidy up
+run the command:
+docker container rm db site -f
+
+to remove the containers for db and site, incase you want to create a new set of containers with the same tag (maybe you want to run another wordpress docker instance :).
+
 # troubleshooting
 
 ## 1
