@@ -5,6 +5,8 @@ docker-compose needs to be installed
 
 Extract the database zip file located in the db_backup folder
 
+Update the docker-compose by setting the dbnames to that of the name of the database backed up
+
 # CLI Commands 
 run docker image on CLI:
 docker-compose down --volumes && docker-compose up
